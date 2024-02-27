@@ -1,0 +1,167 @@
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.navcolor {
+    background-color: white;
+}
+
+.navbar-expand-sm .navbar-nav .linkCustom {
+    color: black;
+}
+
+.navbar-expand-sm .navbar-nav .linkCustom:hover {
+    border-top: 1px solid black;
+    text-decoration: underline;
+}
+
+#musica {
+    background-color: black;
+    position: relative;
+}
+
+.divisor {
+    background-color: black;
+}
+
+.divisor p {
+    color: black;
+}
+
+.quadrado {
+    background-color: white;
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 1000px; /* 20px de margem após a imagem */
+    height: 620px;
+    margin-top: 100px;
+}
+
+.temaEscuro {
+    margin-top: 100px;
+    color: white;
+}
+
+.temaEscuro a {
+    color: white;
+}
+
+.cima {
+    margin-top: 50px;
+}
+
+#fotos {
+    margin: 110px 0px;
+}
+
+footer {
+    background: #000;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+}
+
+footer h4 {
+    color: #919496;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+footer h3 {
+    font-size: 1.4em;
+    text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+    color: white;
+    font-size: 0.8em;
+}
+
+/*media queries*/
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .custom-container {
+        max-width: none; /* Remover a restrição de largura máxima */
+        padding-left: 15px; /* Adicionar o espaçamento lateral padrão do Bootstrap */
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+    #imgPrincipal {
+        margin-bottom: 180px;
+        position: relative;
+        left: -85px;
+    }
+
+    .navbar-expand-sm .navbar-nav .linkCustom:hover {
+        border-top: none;
+        text-decoration: none;
+        color: #919496;
+    }
+
+    .contratar .ms-3 {
+        margin-left: 0px !important;
+    }
+
+    .bot .nav-link {
+        display: block;
+        padding: 8px 0px;
+        margin-left: 0px !important;
+        margin-top: 10px;
+        margin-right: 400px;
+    }
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #imgPrincipal {
+        margin-bottom: 130px;
+    }
+    
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .custom-container {
+        max-width: none; /* Remover a restrição de largura máxima */
+        padding-left: 15px; /* Adicionar o espaçamento lateral padrão do Bootstrap */
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+    #imgPrincipal {
+        margin-left: 180px;
+        margin-bottom: 60px;
+    }
+
+    #textos {
+        margin-left: 240px;
+    }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .custom-container {
+        max-width: none; /* Remover a restrição de largura máxima */
+        padding-left: 15px; /* Adicionar o espaçamento lateral padrão do Bootstrap */
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      #home {
+        margin-bottom: 80px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    #home {
+        margin-bottom: 100px;
+    }
+}
